@@ -3,18 +3,13 @@
 Hola, necesito recomendaciones de configuración para **OBS Studio** basadas en este hardware y OS:
 
 ### Internet
-- Subida: `88.69 Mbps`
-- Bajada: `24.73 Mbps`
+- Subida: `76.52 Mbps`
+- Bajada: `90.22 Mbps`
 
 ### HW Info
 - Receptor de internet: Ethernet
 
-Fastfetch command:
-```bash
-fastfetch -s os:kernel:de:wm:cpu:gpu:memory:disk:display --logo none
-```
-
-Fastfetch Output:
+Terminal output:
 ```
 OS: Debian GNU/Linux 13 (trixie) x86_64
 Kernel: Linux 6.12.113+deb13-amd64
@@ -22,8 +17,8 @@ DE: KDE Plasma 6.3.6
 WM: KWin (Wayland)
 CPU: AMD Ryzen 5 3500X (6) @ 4.12 GHz
 GPU: AMD Radeon RX 6400 [Discrete]
-Memory: 6.95 GiB / 15.55 GiB (45%)
-Disk (/): 215.70 GiB / 271.53 GiB (79%) - ext4
+Memory: 7.00 GiB / 15.55 GiB (45%)
+Disk (/): 215.74 GiB / 271.53 GiB (79%) - ext4
 Disk (/media/public/500gb-games-ext4): 275.08 GiB / 445.68 GiB (62%) - ext4
 Disk (/media/public/500gb-games-ntfs): 250.10 GiB / 500.00 GiB (50%) - ntfs3
 Disk (/media/public/SSD-256): 187.25 GiB / 238.46 GiB (79%) - exfat

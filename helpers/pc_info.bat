@@ -1,0 +1,4 @@
+@echo off
+rem Info de hardware/software (equivalente a helpers/pc_info.sh)
+powershell -NoProfile -Command "[System.Threading.Thread]::CurrentThread.CurrentCulture = [cultureinfo]::InvariantCulture; $os = Get-CimInstance Win32_OperatingSystem; $cpu = Get-CimInstance Win32_Processor; $gpu = Get-CimInstance Win32_VideoController; $ram = [math]::Round((Get-CimInstance Win32_ComputerSystem).TotalPhysicalMemory / 1GB, 1); Write-Output ('OS: ' + $os.Caption + ' ' + $os.Version); Write-Output ('CPU: ' + $cpu.Name); Write-Output ('GPU: ' + ($gpu.Name -join ', ')); Write-Output ('Memory: ' + $ram + ' GB'); Write-Output 'Disks:'; Get-CimInstance Win32_LogicalDisk -Filter 'DriveType=3' | ForEach-Object { Write-Output ('  ' + $_.DeviceID + ' ' + [math]::Round($_.Size / 1GB, 1) + ' GB (Free: ' + [math]::Round($_.FreeSpace / 1GB, 1) + ' GB)') }; Write-Output ('Display: ' + $gpu.CurrentHorizontalResolution + 'x' + $gpu.CurrentVerticalResolution)"
+exit /b %ERRORLEVEL%
