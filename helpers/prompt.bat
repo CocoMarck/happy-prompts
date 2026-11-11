@@ -18,7 +18,9 @@ if exist "%DEST%" del /q "%DEST%" >nul 2>&1
 for /f "usebackq delims=" %%L in (`findstr /n "^" "%TEMPLATE%"`) do (
     set "line=%%L"
     set "line=!line:*:=!"
-    if "!line!"=="$hw_sw_info" (
+    if not defined line (
+        >>"%DEST%" echo(
+    ) else if "!line!"=="$hw_sw_info" (
         if defined HWFILE if exist "!HWFILE!" type "!HWFILE!" >> "%DEST%"
     ) else (
         set "line=!line:$internet_upload_speed=%internet_upload_speed%!"
@@ -31,7 +33,7 @@ for /f "usebackq delims=" %%L in (`findstr /n "^" "%TEMPLATE%"`) do (
         set "line=!line:$multimedia_servicies=%multimedia_servicies%!"
         set "line=!line:$stream_type=%stream_type%!"
         set "line=!line:$audio_indications=%audio_indications%!"
-        echo(!line!>>"%DEST%"
+        >>"%DEST%" echo(!line!
     )
 )
 endlocal

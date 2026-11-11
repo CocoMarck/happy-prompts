@@ -25,5 +25,5 @@ del /q "%UPFILE%" >nul 2>&1
 endlocal & exit /b %RC%
 
 :bytes_to_mbps
-powershell -NoProfile -Command "[System.Threading.Thread]::CurrentThread.CurrentCulture = [cultureinfo]::InvariantCulture; $v = 0.0; if ('%~1' -ne '' -and [double]::TryParse('%~1', [Globalization.NumberStyles]::Float, [cultureinfo]::InvariantCulture, [ref]$v)) { $m = $v * 8 / 1e6; if ($m -gt 0) { [math]::Round($m, 2).ToString([cultureinfo]::InvariantCulture) } else { '0' } } else { 'No se' }"
+powershell -NoProfile -Command "[System.Threading.Thread]::CurrentThread.CurrentCulture = [cultureinfo]::InvariantCulture; $v = 0.0; if ('%~2' -ne '' -and [double]::TryParse('%~2', [Globalization.NumberStyles]::Float, [cultureinfo]::InvariantCulture, [ref]$v)) { $m = $v * 8 / 1e6; if ($m -gt 0) { [math]::Round($m, 2).ToString([cultureinfo]::InvariantCulture) } else { '0' } } else { 'No tengo internet' }"
 exit /b 0

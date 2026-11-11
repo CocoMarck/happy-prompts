@@ -9,7 +9,7 @@ rem
 rem  Dependencias (ya vienen con Windows 10, NO instala nada):
 rem    - powershell.exe  info del hardware y conversion de velocidad
 rem    - curl.exe        medicion de red (incluido desde Windows 10 1803)
-rem  Si falta alguna, se usa "No se" en lugar de abortar.
+rem  Si falta alguna, se usa "No tengo internet" en lugar de abortar.
 rem
 rem  Flags al estilo Windows (tambien acepta -flag / --flag):
 rem    /o /? /h /help      (ver :usage)
@@ -78,11 +78,11 @@ if defined BS_UL (
 goto :speed_done
 
 :no_net
-echo Aviso: no pude medir la red. Quedara "No se". 1>&2
+echo Aviso: no pude medir la red. Quedara "No tengo internet". 1>&2
 
 :speed_done
-if not defined internet_download_speed set "internet_download_speed=No se"
-if not defined internet_upload_speed set "internet_upload_speed=No se"
+if not defined internet_download_speed set "internet_download_speed=No tengo internet"
+if not defined internet_upload_speed set "internet_upload_speed=No tengo internet"
 
 rem ------------------------ archivo de salida ------------------------
 if not exist "%PROMPT_TEMPLATE%" (

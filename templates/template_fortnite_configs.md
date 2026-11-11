@@ -5,6 +5,7 @@ Hola, necesito que me ayudes a obtener tres configuraciones para Fortnite.
 #### Recomendaciones finales
 1. Menciona si mi HW o SW no esta capacitado para jugar. Y el porque. Hazlo de manera breve.
 2. Menciona que HW y SW me recomiendas para alcanzar un buen gameplay, según cada perfil.
+3. Escribeme un `ini` de la configuracion grafica. Y dime donde puedo guardarlo/encontrarlo.
 
 ---
 ## Información
