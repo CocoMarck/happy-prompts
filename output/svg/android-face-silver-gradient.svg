@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-labelledby="title">
+  <title id="title">Cara de androide plateado</title>
+  <defs>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2F5F8"/>
+      <stop offset="0.5" stop-color="#C3CCD6"/>
+      <stop offset="1" stop-color="#8B97A5"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#AEB9C5"/>
+      <stop offset="1" stop-color="#6B7887"/>
+    </linearGradient>
+    <linearGradient id="eye" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B8F4FF"/>
+      <stop offset="1" stop-color="#2E9FC4"/>
+    </linearGradient>
+  </defs>
+  <rect x="31" y="6" width="2" height="6" fill="url(#silver)"/>
+  <circle cx="32" cy="4" r="2.5" fill="url(#eye)"/>
+  <rect x="8" y="12" width="48" height="42" rx="10" fill="url(#silver)" stroke="#5E6B78" stroke-width="1.5"/>
+  <rect x="14" y="18" width="36" height="28" rx="6" fill="url(#panel)" stroke="#4E5A66"/>
+  <rect x="20" y="26" width="9" height="5" rx="2" fill="url(#eye)"/>
+  <rect x="35" y="26" width="9" height="5" rx="2" fill="url(#eye)"/>
+  <rect x="24" y="38" width="16" height="2" rx="1" fill="#4E5A66"/>
+  <rect x="5" y="26" width="4" height="12" rx="1" fill="url(#silver)" stroke="#5E6B78"/>
+  <rect x="55" y="26" width="4" height="12" rx="1" fill="url(#silver)" stroke="#5E6B78"/>
+</svg>

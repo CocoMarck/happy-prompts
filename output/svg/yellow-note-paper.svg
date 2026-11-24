@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-labelledby="title">
+  <title id="title">Papel de nota amarillo</title>
+  <path d="M12 6 H40 L52 18 V58 H12 Z" fill="#FFD95E" stroke="#C9A227" stroke-width="1.5" stroke-linejoin="miter"/>
+  <path d="M40 6 V18 H52 Z" fill="#F0BE3C" stroke="#C9A227" stroke-width="1.5" stroke-linejoin="miter"/>
+  <path d="M20 26 H44 M20 33 H44 M20 40 H44 M20 47 H38" fill="none" stroke="#C9A227" stroke-width="2" stroke-linecap="square"/>
+</svg>
