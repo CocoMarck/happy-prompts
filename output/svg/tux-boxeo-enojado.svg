@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title">
+  <title id="title">Tux enojado con guantes de boxeo</title>
+  <defs>
+    <linearGradient id="glove" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F04A4A"/>
+      <stop offset="1" stop-color="#B51212"/>
+    </linearGradient>
+    <linearGradient id="beak" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFC542"/>
+      <stop offset="1" stop-color="#E08A0C"/>
+    </linearGradient>
+  </defs>
+  <path d="M64 16 C44 16 34 30 34 50 C34 72 46 92 64 92 C82 92 94 72 94 50 C94 30 84 16 64 16 Z" fill="#111418"/>
+  <path d="M64 30 C50 30 42 40 42 54 C42 70 52 84 64 88 C76 84 86 70 86 54 C86 40 78 30 64 30 Z" fill="#F5F7F8"/>
+  <path d="M45 43 L59 49" stroke="#111418" stroke-width="5" stroke-linecap="round"/>
+  <path d="M83 43 L69 49" stroke="#111418" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="54" cy="56" rx="5" ry="6.5" fill="#111418"/>
+  <ellipse cx="74" cy="56" rx="5" ry="6.5" fill="#111418"/>
+  <circle cx="52.5" cy="53.5" r="1.6" fill="#FFFFFF"/>
+  <circle cx="72.5" cy="53.5" r="1.6" fill="#FFFFFF"/>
+  <path d="M57 67 L71 67 L64 79 Z" fill="url(#beak)" stroke="#B96E08" stroke-width="1.5" stroke-linejoin="round"/>
+  <ellipse cx="30" cy="72" rx="17" ry="21" fill="url(#glove)" stroke="#8C0F0F" stroke-width="2"/>
+  <ellipse cx="44" cy="82" rx="7" ry="10" transform="rotate(-25 44 82)" fill="url(#glove)" stroke="#8C0F0F" stroke-width="2"/>
+  <path d="M22 62 C28 58 36 60 40 65" fill="none" stroke="#FF8A8A" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="25" cy="70" rx="4" ry="3" fill="#FF8A8A" opacity="0.7"/>
+  <rect x="18" y="86" width="25" height="15" rx="3" fill="#D62828" stroke="#8C0F0F" stroke-width="2"/>
+  <path d="M18 91 H43" stroke="#FF8A8A" stroke-width="2"/>
+  <ellipse cx="98" cy="72" rx="17" ry="21" fill="url(#glove)" stroke="#8C0F0F" stroke-width="2"/>
+  <ellipse cx="84" cy="82" rx="7" ry="10" transform="rotate(25 84 82)" fill="url(#glove)" stroke="#8C0F0F" stroke-width="2"/>
+  <path d="M106 62 C100 58 92 60 88 65" fill="none" stroke="#FF8A8A" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="103" cy="70" rx="4" ry="3" fill="#FF8A8A" opacity="0.7"/>
+  <rect x="85" y="86" width="25" height="15" rx="3" fill="#D62828" stroke="#8C0F0F" stroke-width="2"/>
+  <path d="M85 91 H110" stroke="#FF8A8A" stroke-width="2"/>
+</svg>
